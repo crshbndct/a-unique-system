@@ -1,9 +1,12 @@
 [gd_scene format=3 uid="uid://coqmqii7adeqa"]
 
+[ext_resource type="Script" uid="uid://dqvubyg1qn8d8" path="res://main.gd" id="1_a202f"]
+
 [sub_resource type="PlaneMesh" id="PlaneMesh_4xowi"]
 size = Vector2(100, 100)
 
-[node name="Node3D" type="Node3D" unique_id=1542691909]
+[node name="main" type="Node3D" unique_id=1542691909]
+script = ExtResource("1_a202f")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1187523717]
 transform = Transform3D(0.9158379, 0, 0.4015482, 0, 1, 0, -0.4015482, 0, 0.9158379, 0.85144615, 3.0211952, 0.46963644)
